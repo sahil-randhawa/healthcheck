@@ -42,12 +42,12 @@ echo -e "\nMemory Usage:"
 free -h
 
 # Print top 5 memory consuming processes
-echo -e "\nTop 5 Memory Consuming Processes:"
-ps -eo pmem,pid,ppid,user,stat,args --sort=-pmem | head -6
+#echo -e "\nTop 5 Memory Consuming Processes:"
+#ps -eo pmem,pid,ppid,user,stat,args --sort=-pmem | head -6
 
 # Print top 5 CPU consuming processes
-echo -e "\nTop 5 CPU Consuming Processes:"
-ps -eo pcpu,pid,ppid,user,stat,args --sort=-pcpu | head -6
+#echo -e "\nTop 5 CPU Consuming Processes:"
+#ps -eo pcpu,pid,ppid,user,stat,args --sort=-pcpu | head -6
 
 echo -e "\n************************************"
 echo "          Health Check Complete      "

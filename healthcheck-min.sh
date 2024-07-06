@@ -30,8 +30,8 @@ echo -e "\nMounted File Systems:"
 mount | grep -E "ext4|ext3|xfs|btrfs" | column -t
 
 # Check disk usage on all mounted file systems
-#echo -e "\nDisk Usage on Mounted File Systems:"
-#df -h | grep -E "Filesystem|ext4|ext3|xfs|btrfs" | column -t
+echo -e "\nDisk Usage on Mounted File Systems:"
+df -h | grep -E "Filesystem|ext4|ext3|xfs|btrfs" | column -t
 
 # Check for CPU usage
 echo -e "\nCPU Usage:"
